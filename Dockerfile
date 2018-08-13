@@ -46,5 +46,5 @@ RUN composer install --no-interaction --no-ansi --no-dev \
     && find /var/www -type d -exec chmod u+rwx,g+rxs,o-rwx {} + \
     && find /var/www -type f -exec chmod u+rw,g+r,o-rwx {} +
 
-VOLUME /data
-VOLUME /public
+VOLUME /var/www/data
+VOLUME /var/www/public
