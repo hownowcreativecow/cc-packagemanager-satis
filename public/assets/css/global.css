@@ -1,0 +1,11 @@
+.container-fluid {
+    max-width: 1678px;
+}
+
+footer {
+    padding-bottom: 40px;
+}
+
+#console-output {
+    background: #000;
+}

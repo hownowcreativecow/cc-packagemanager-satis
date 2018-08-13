@@ -1,0 +1,12 @@
+/.idea
+/config/autoload/local.php
+/config/autoload/*.local.php
+/public/assets/css/global.min.css
+/public/assets/js/global.min.js
+/public/dist
+/public/p
+/public/index.html
+/public/packages.json
+/vendor
+.DS_Store
+Thumb.db

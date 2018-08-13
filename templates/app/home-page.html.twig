@@ -1,0 +1,13 @@
+{% extends '@layout/default.html.twig' %}
+{% block title %}Package List{% endblock %}
+{% block content %}
+    {% if packageList %}{{ packageList | raw }}
+    {% else %}
+        <h1 class="pt-3">
+            Welcome
+        </h1>
+        <p class="pt-3">
+            The package manager has not yet been built, click "Build Now" above.
+        </p>
+    {% endif %}
+{% endblock %}
